@@ -117,7 +117,7 @@ namespace MicroRabbit.Infra.Bus
 
         private async Task ProcessEvent(string eventName, string message)
         {
-            if(_handlers.ContainsKey(eventName))
+            if (_handlers.ContainsKey(eventName))
             {
                 using (var scope = _serviceScopeFactory.CreateScope())
                 {

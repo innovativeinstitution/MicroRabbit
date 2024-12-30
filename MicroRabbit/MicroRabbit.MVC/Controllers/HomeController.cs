@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using MicroRabbit.MVC.Models;
-using MicroRabbit.MVC.Services;
+﻿using MicroRabbit.MVC.Models;
 using MicroRabbit.MVC.Models.DTO;
+using MicroRabbit.MVC.Services;
+using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
+using System.Threading.Tasks;
 
 namespace MicroRabbit.MVC.Controllers
 {

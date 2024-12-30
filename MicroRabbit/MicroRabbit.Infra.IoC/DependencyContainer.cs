@@ -16,9 +16,6 @@ using MicroRabbit.Transfer.Domain.EventHandlers;
 using MicroRabbit.Transfer.Domain.Events;
 using MicroRabbit.Transfer.Domain.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace MicroRabbit.Infra.IoC
 {

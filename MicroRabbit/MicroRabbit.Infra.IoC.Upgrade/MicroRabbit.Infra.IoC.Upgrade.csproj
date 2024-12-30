@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroRabbit.Banking.Application.Upgrade\MicroRabbit.Banking.Application.Upgrade.csproj" />
+    <ProjectReference Include="..\MicroRabbit.Banking.Data.Upgrade\MicroRabbit.Banking.Data.Upgrade.csproj" />
+    <ProjectReference Include="..\MicroRabbit.Banking.Domain.Upgrade\MicroRabbit.Banking.Domain.Upgrade.csproj" />
+    <ProjectReference Include="..\MicroRabbit.Domain.Core.Upgrade\MicroRabbit.Domain.Core.Upgrade.csproj" />
+    <ProjectReference Include="..\MicroRabbit.Infra.Bus.Upgrade\MicroRabbit.Infra.Bus.Upgrade.csproj" />
+    <ProjectReference Include="..\MicroRabbit.Transfer.Application.Upgrade\MicroRabbit.Transfer.Application.Upgrade.csproj" />
+    <ProjectReference Include="..\MicroRabbit.Transfer.Data.Upgrade\MicroRabbit.Transfer.Data.Upgrade.csproj" />
+    <ProjectReference Include="..\MicroRabbit.Transfer.Domain.Upgrade\MicroRabbit.Transfer.Domain.Upgrade.csproj" />
+  </ItemGroup>
+
+</Project>
