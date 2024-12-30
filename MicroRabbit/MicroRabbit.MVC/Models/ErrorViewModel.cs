@@ -1,5 +1,3 @@
-using System;
-
 namespace MicroRabbit.MVC.Models
 {
     public class ErrorViewModel

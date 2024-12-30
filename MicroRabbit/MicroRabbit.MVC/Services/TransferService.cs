@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using MicroRabbit.MVC.Models.DTO;
+using Newtonsoft.Json;
 using System.Net.Http;
 using System.Threading.Tasks;
-using MicroRabbit.MVC.Models.DTO;
-using Newtonsoft.Json;
 
 namespace MicroRabbit.MVC.Services
 {
